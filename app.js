@@ -16,6 +16,8 @@ const db=mongoose.connection
 
 db.on('error',(err) =>{
     console.log(err)
+    console.log(" ")
+    console.log(" ")
 })
 
 db.once('open',() =>{
